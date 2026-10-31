@@ -1,0 +1,90 @@
+body {
+	background-color: #e8eef1;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 420px;
+	margin: 60px auto;
+	background-color: #ffffff;
+	padding: 25px 30px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px #bbb;
+}
+
+h1 {
+	color: #2c3e50;
+	font-size: 24px;
+	margin-top: 0;
+	border-bottom: 2px solid #4a7a96;
+	padding-bottom: 8px;
+}
+
+input[type=text], input[type=password] {
+	width: 94%;
+	padding: 8px;
+	margin-top: 4px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	background-color: #4a7a96;
+	color: white;
+	border: none;
+	padding: 9px 18px;
+	margin-top: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+input[type=submit]:hover {
+	background-color: #3b627a;
+}
+
+a {
+	color: #4a7a96;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 14px;
+	color: #333;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+table th {
+	background-color: #4a7a96;
+	color: white;
+	padding: 8px;
+	text-align: left;
+}
+
+table td {
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+	background-color: #f4f7f8;
+}
+
+/* the big container is too narrow for the table so widen it a bit for that page only */
+.wide {
+	width: 650px;
+}
